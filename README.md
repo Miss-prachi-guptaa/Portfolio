@@ -1,16 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1845" height="876" alt="image" src="https://github.com/user-attachments/assets/59563210-69c5-416b-b227-9908a5544632" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🌐 Personal Portfolio
 
-## React Compiler
+A modern, responsive developer portfolio showcasing my projects, skills, and journey in web development.  
+Built with a strong focus on clean UI, performance, and real-world functionality.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Modern UI with clean and minimal design
+- 📱 Fully responsive across all devices
+- 🧑‍💻 Projects section with live demos & source code links
+- 📬 Working contact form (EmailJS integration)
+- 🌙 Dark-themed, developer-friendly interface
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** Tailwind CSS
+- **Animations:** CSS / Framer Motion (if used)
+- **Email Service:** EmailJS
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+

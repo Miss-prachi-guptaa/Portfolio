@@ -2,7 +2,7 @@
 import './App.css'
 import { AboutSection } from './components/About'
 import EducationSection from './components/Education'
-import Skills from './components/skills'
+import Skills from './components/Skiils'
 
 
 import Home from './components/Home'

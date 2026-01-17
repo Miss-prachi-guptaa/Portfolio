@@ -9,13 +9,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_61ng7n5",     // ✅ your SERVICE ID
-        "template_dwaz8mu",     // ❗ replace with YOUR TEMPLATE ID
-        formRef.current,
-        "yd46Lep1jNNFl9pUe"     // ❗ replace with YOUR PUBLIC KEY
-      )
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      formRef.current,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
+
 
       .then(
         () => {

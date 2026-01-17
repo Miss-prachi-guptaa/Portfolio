@@ -1,0 +1,170 @@
+.hero-content {
+  text-align: center;
+}
+
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin-top: 10px;
+  font-size: 78px;
+  font-weight: 800;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.highlight {
+  background: linear-gradient(135deg, #facc15, #f59e0b);
+  -webkit-background-clip: text;
+  /* clip gradient to text */
+  -webkit-text-fill-color: transparent;
+  /* make text fill transparent */
+  background-clip: text;
+  /* fallback for other browsers */
+}
+
+
+.cursor {
+  margin-left: 4px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+/* Subtext */
+.subtext {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #dcdcdc;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Button container */
+.hero-buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Buttons Style */
+.btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  font-family: "Inter", sans-serif;
+}
+
+/* Primary button */
+.primary-btn {
+  background: linear-gradient(135deg, #facc15, #f59e0b);
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: linear-gradient(135deg, #ffdd3d, #fbbf24);
+  transform: translateY(-2px);
+}
+
+
+/* Secondary button */
+.secondary-btn {
+  border: 2px solid #facc15;
+  color: #facc15;
+}
+
+.secondary-btn:hover {
+  background: rgba(250, 204, 21, 0.2);
+}
+
+/* 1. The Container (The Pill) */
+.availability {
+  display: inline-flex;
+  /* Makes the box wrap tightly around text */
+  align-items: center;
+  /* Vertically centers the dot and text */
+  gap: 8px;
+  /* Space between the dot and the text */
+
+  background-color: rgba(255, 255, 255, 0.05);
+  /* Semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* Subtle border */
+  border-radius: 9999px;
+  /* Fully rounded corners (Pill shape) */
+
+  padding: 6px 16px;
+  /* Vertical and Horizontal padding */
+
+  color: #e2e8f0;
+  /* Light grey/white text color */
+  font-family: sans-serif;
+  /* Use your site's main font */
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  /* Optional: Glassmorphism blur */
+  backdrop-filter: blur(4px);
+}
+
+/* 2. The Green Dot */
+.green-dot {
+  color: #10b981;
+  /* Bright Emerald Green */
+  font-size: 1.2em;
+  /* Size of the dot character */
+  line-height: 1;
+  /* Prevents dot from messing up height */
+
+  /* Add a subtle glow effect */
+  text-shadow: 0 0 8px rgba(16, 185, 129, 0.5);
+
+  /* Optional: Add the pulse animation defined below */
+  animation: pulse 2s infinite;
+}
+
+/* 3. Optional Animation: Makes the dot fade in and out slightly */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

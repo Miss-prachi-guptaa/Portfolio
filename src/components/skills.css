@@ -1,0 +1,90 @@
+.skills-section {
+  background: #050b1b;
+  color: white;
+  padding: 40px 30px;
+  /* reduced */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main Title */
+.skills-main-title {
+  font-size: 30px;
+  /* smaller */
+  font-weight: 700;
+  margin-bottom: 30px;
+  /* reduced */
+}
+
+/* Grid Layout */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  /* smaller cards */
+  gap: 22px;
+  /* reduced */
+}
+
+/* Card Styling */
+.skill-card {
+  background: #111827;
+  padding: 18px;
+  /* ↓ from 25px */
+  border-radius: 18px;
+  /* smaller */
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+}
+
+/* Icon Box */
+.skill-icon {
+  width: 45px;
+  /* smaller */
+  height: 45px;
+  /* smaller */
+  border-radius: 12px;
+  font-size: 22px;
+  /* smaller icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Title */
+.skill-title {
+  font-size: 17px;
+  /* smaller */
+  margin: 14px 0 10px 0;
+  /* reduced */
+  font-weight: 600;
+}
+
+/* Tags */
+.skill-tags {
+  display: flex;
+  padding: 20px 0 0 0;
+  ;
+  flex-wrap: wrap;
+  gap: 8px;
+  /* reduced */
+}
+
+.tag {
+  background: #374151;
+  padding: 6px 10px;
+  /* smaller */
+  border-radius: 10px;
+  font-size: 12.5px;
+  /* smaller text */
+  color: #e5e7eb;
+}
+
+.tag:hover {
+  background: #4b5563;
+}

@@ -23,7 +23,7 @@ Built with a strong focus on clean UI, performance, and real-world functionality
 
 - **Frontend:** React, Vite
 - **Styling:** Tailwind CSS
-- **Animations:** CSS / Framer Motion (if used)
+- **Animations:** Framer Motion 
 - **Email Service:** EmailJS
 - **Deployment:** Vercel
 
